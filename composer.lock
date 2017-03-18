@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "70b6ac0580464cccb8ee90b65a643b37",
+    "content-hash": "012fb6b2d87db2aa672efa2eb0c210cb",
+    "packages": [
+        {
+            "name": "mindk/framework",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/sites/fram/",
+                "reference": "bd5efa64bacfd89ccfab8dbf1ad04a7ce8e7111d",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mindk\\Framework\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shtoorman",
+                    "email": "bar2683@mail.ru"
+                }
+            ],
+            "description": "Sample FW"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mindk/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
