@@ -1,21 +1,21 @@
 {
-    "name": "mindk/store",
-    "description": "Application",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "shtoorman",
-            "email": "bar2683@mail.ru"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "mindk/framework": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/home/sites/fram"
-        }
-    ]
+  "name": "shtoorman/test2app",
+  "description": "Application",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shtoorman",
+      "email": "bar2683@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "shtoorman/test3fram": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/shtoorman/test3fram"
+    }
+  ]
 }
